@@ -4,12 +4,13 @@
   "description": "Shows info about computers",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.mjs"
   },
   "repository": "git@github.com:AlvaroMaceda/computer-info.git",
   "author": "Alvaro Maceda <alvaro@alvaromaceda.es>",
-  "license": "GPL 3",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
   }
 }
