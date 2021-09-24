@@ -1,0 +1,15 @@
+{
+  "name": "computer-info",
+  "version": "0.0.1",
+  "description": "Shows info about computers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "git@github.com:AlvaroMaceda/computer-info.git",
+  "author": "Alvaro Maceda <alvaro@alvaromaceda.es>",
+  "license": "GPL 3",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
